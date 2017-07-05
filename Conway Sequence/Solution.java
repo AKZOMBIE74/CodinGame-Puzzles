@@ -48,7 +48,7 @@ class Solution {
                 if (i==line.length-1){//Is the loop on the last number on the line?
                     String baseString = solution+String.valueOf(count)+" "+String.valueOf(numberOn);//Make base solution
                     solution = baseString;//Set solution to baseString
-                } else if(line[i+1]!=numberOn){
+                } else if(line[i+1]!=numberOn){//Is the next integer on the line the same as the current number? If not...
                     String baseString = solution+String.valueOf(count)+" "+String.valueOf(numberOn);//Make base solution
                     solution = baseString+" ";//Add space to baseString and set solution to that
                     count=0;//Set count to 0
