@@ -40,7 +40,7 @@ class Solution {
         int numberOn=-1;//Default value
         String solution="";//Solution to each line
         for (int i=0; i<line.length; i++) {//Loop through each integer of line
-            if (numberOn==-1 || numberOn!=line[i]) {
+            if (numberOn==-1 || numberOn!=line[i]) {//Are we on the current number that is going through the loop?, if not...
                 numberOn = line[i];//Put us on that number
             }
             if (numberOn==line[i]){//Is the number we are on equal to the current number?
