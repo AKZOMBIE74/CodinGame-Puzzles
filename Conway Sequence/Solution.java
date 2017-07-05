@@ -41,7 +41,7 @@ class Solution {
         String solution="";//Solution to each line
         for (int i=0; i<line.length; i++) {//Loop through each integer of line
             if (numberOn==-1 || numberOn!=line[i]) {
-                numberOn = line[i];//nO = 1
+                numberOn = line[i];//Put us on that number
             }
             if (numberOn==line[i]){//Is the number we are on equal to the current number?
                 count+=1;//If so add 1 to count.
