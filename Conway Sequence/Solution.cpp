@@ -24,8 +24,6 @@ vector<int> splitString(string line){
 	if (line.size()>0){
 		for (int j=0; j<line.size(); j++){
 			if (line[j]!=' '){
-				//int iOfCharacter = line[i]-'0';
-				//splitted.push_back(iOfCharacter);
 				i+=line[j];
 				if (j==line.size()-1){
 				    splitted.push_back(atoi(i.c_str()));
