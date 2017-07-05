@@ -47,10 +47,10 @@ class Solution {
                 count+=1;//If so add 1 to count.
                 if (i==line.length-1){//Is the loop on the last number on the line?
                     String baseString = solution+String.valueOf(count)+" "+String.valueOf(numberOn);//Make base solution
-                    solution = baseString;//If solution is not empty, add space, else don't.
+                    solution = baseString;//Set solution to baseString
                 } else if(line[i+1]!=numberOn){
                     String baseString = solution+String.valueOf(count)+" "+String.valueOf(numberOn);//Make base solution
-                    solution = baseString+" ";//If solution is not empty, add space, else don't.
+                    solution = baseString+" ";//Add space to baseString and set solution to that
                     count=0;//Set count to 0
                 }
             } else {//If the number we are on is not equal to the current number in the loop, then...
