@@ -44,7 +44,7 @@ string getSolutionOfLine(vector<int> line){
 	int count = 0;//Default value
 	int numberOn=-1;//Default value
 	string solution="";//Solution to each line
-	for (int i=0; i<line.size(); i++) {
+	for (int i=0; i<line.size(); i++) {//Loop through each integer of line
 		if (numberOn==-1 || numberOn!=line[i]) {//Are we on the current number that is going through the loop?, if not...
 			numberOn = line[i];//Put us on that number
 			count = 0;
