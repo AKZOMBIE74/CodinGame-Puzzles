@@ -33,7 +33,8 @@ class Solution {
         }
         return p;
     }
-
+    
+    /*Returns solution of a given line of the conway sequence*/
     public static String getSolutionOfLine(int[] line){
         int count = 0;//Default value
         int numberOn=-1;//Default value
