@@ -1,4 +1,4 @@
-//I created this solution 2nd, after I made the Java one.
+//I created this solution 2nd for this puzzle, after I made the Java one.
 #include <iostream>
 #include <string>
 #include <vector>
