@@ -60,7 +60,7 @@ class Solution {
                 numberOn=line[i];//We are on a new number
             }
         }
-        return solution;
+        return solution;//Give us back the solution.
     }
 
     public static void main(String args[]) {
