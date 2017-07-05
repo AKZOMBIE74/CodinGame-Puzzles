@@ -54,7 +54,7 @@ class Solution {
                 }
             } else {//If the number we are on is not equal to the current number in the loop, then...
                 String baseString = solution+String.valueOf(count)+" "+String.valueOf(numberOn);//Make base solution
-                solution = solution==null||solution==""? baseString : " "+baseString;//If solution is not empty, add space, else don't.
+                solution = solution==""? baseString : " "+baseString;//If solution is not empty, add space, else don't.
                 count=0;//Set count to 0
                 numberOn=line[i];//We are on a new number
             }
