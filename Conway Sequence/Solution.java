@@ -65,8 +65,8 @@ class Solution {
 
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
-        int R = in.nextInt();
-        int L = in.nextInt();
+        int R = in.nextInt();//Number to start with
+        int L = in.nextInt();//Line to print
         String currentSolution=String.valueOf(R);//This is always the first line of the sequence.
         int count = 0;//Default value
 
