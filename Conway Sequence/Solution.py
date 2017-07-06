@@ -36,8 +36,8 @@ def solution_of_line(line):
 # Auto-generated code below aims at helping you parse
 # the standard input according to the problem statement.
 
-r = int(raw_input())
-l = int(raw_input())
+r = int(raw_input()) #Number to start with
+l = int(raw_input()) #Line to print
 count = 0 #Default Value
 current_solution = str(r) #This is always the first line of the sequence.
 
