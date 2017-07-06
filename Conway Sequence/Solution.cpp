@@ -76,9 +76,9 @@ string getSolutionOfLine(vector<int> line){
  **/
 int main()
 {
-	int R;
+	int R;//Number to start with
     cin >> R; cin.ignore();
-	int L;
+	int L;//Line to print
     cin >> L; cin.ignore();
     
 	string currentSolution = to_string(R);//This is always the first line of the sequence.
