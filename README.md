@@ -1,2 +1,2 @@
 # CodinGame-Puzzles
-My solutions to the puzzles I have attempted on Codingame.com
+My solutions to some of the puzzles I have attempted on Codingame.com
